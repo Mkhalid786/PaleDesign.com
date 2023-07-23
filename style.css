@@ -1,0 +1,670 @@
+@font-face {
+    font-family: k;
+    src: url(./picture-of-the-romantic-cufonfonts/Picture\ of\ the\ Romantic.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    overflow: hidden;
+    position: relative;
+    cursor: none;
+    background-color: #000;
+}
+.cursor{
+    width: 130px;
+    height: 130px;
+    border-radius: 90px;
+    background-color: #E8FF00;
+    position: fixed;
+    z-index: 99;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: maroon; */
+    position: relative;
+}
+.page1 video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.nav{
+    width: 100%;
+    height: 11vh;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.imgin{
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 3% 7%;
+    gap: 2%;
+}
+.imgin img{
+    width: 155px;
+}
+.imgin p{
+    font-size: 60px;
+     font-family: k;
+     font-weight: 900;
+     color: rgba(255, 255, 255, 0.795);
+}
+.img2{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 3% 0;
+}
+.img2 i{
+    font-size: 120px;
+    font-weight: 100;
+    margin-right: 20%;
+    color: rgba(255, 255, 255, 0.623);
+}
+.img2 h2{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+}
+.page1 h1{
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    font-size: 10vh;
+    font-family: k;
+    text-align: center;
+    left: 25%;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.arr{
+    position: absolute;
+    width: 8%;
+    height: 15%;
+    /* background-color: aqua; */
+    text-align: center;
+    left: 50%;
+    top: 84%;
+}
+.arr p{
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.774);
+}
+.arr i{
+    font-size: 145px;
+    color: rgba(255, 255, 255, 0.815);
+    
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.same{
+    width: 48%;
+    height: 100vh;
+    /* background-color: maroon; */
+}
+.in{
+    padding: 15% 0;
+}
+.in h1{
+    color: rgb(238, 233, 233);
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 30%;
+    transition: all ease .3s;
+    color: rgba(0, 0, 0, 0.767);
+}
+.h11{
+    /* background-color: aqua; */
+    padding: 0 8%;
+}
+.aa{
+    /* background-color: aqua; */
+    padding: 0 13%;
+}
+.bb{
+    /* background-color: aqua; */
+    padding: 0 8%;
+}
+.cc{
+    /* background-color: aqua; */
+    padding: 0 2%;
+}
+.qq:hover{
+    color: #E8FF00;
+    transform: rotateY(20deg);
+}
+.h11:hover{
+    color: #E8FF00;
+    transform: rotateY(20deg);
+}
+.aa:hover{
+    color: #28668f;
+    transform: rotateY(20deg);
+}
+.bb:hover{
+    color: #28668f;
+    transform: rotateY(20deg);
+}
+.cc:hover{
+    color: #28668f;
+    transform: rotateY(20deg);
+}
+.page2-right{
+    display: flex;
+    justify-content: space-between;
+}
+.right1{
+    width: 48%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.right2{
+    width: 48%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.img20{
+    width: 90%;
+    height: 50%;
+    /* background-color: #E8FF00; */
+    margin-top: 30%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    background-image: url(./WhatsApp\ Image\ 2023-07-22\ at\ 1.41.02\ AM\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+.right1 h2,.right2 h2{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    /* padding: 2% 0; */
+    margin-top: 15%;
+
+}
+.right1 h3, .right2 h3{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 6%;
+ 
+
+}
+.right1 p , .right2 p{
+    font-size: 65px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 0;
+    color: rgba(0, 0, 0, 0.774);
+}
+.aqw1{
+    width: 90%;
+    height: 55%;
+    /* background-color: #E8FF00; */
+    margin-top: 10%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    background-image: url(./WhatsApp\ Image\ 2023-07-22\ at\ 1.41.02\ AM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.page2-left button{
+    padding: 45px 120px;
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    background-color: transparent;
+    border-radius: 90px;
+    position: absolute;
+    left: 35%;
+    top: 75%;
+    transition: all ease .7s;
+}
+.page2-left button:hover{
+    background-color: #E8FF00;
+    color: white;
+}
+button b{
+    font-size: 55px;
+}
+.page3{
+    width: 100%;
+    height: 110vh;
+    /* background-color: #E8FF00; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.page3-left{
+    width: 35%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+.page3-right{
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(126, 85, 33); */
+}
+.page3-right h1{
+    font-size: 7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 75%;
+    margin-top: 20%;
+    line-height: 10vh;
+    color: rgba(0, 0, 0, 0.726);
+}
+.page3-right button{
+    padding: 50px 100px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    border-radius: 90px;
+    background-color: transparent;
+    margin-top: 5%;
+    transition: all ease .7s;
+}
+.page3-right button:hover{
+    background-color: #E8FF00;
+
+}
+.page3-left p{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.719);
+    margin-top: 30%;
+    margin-left: 70%;
+}
+.page3-left img{
+    height: 20%;
+    margin-top: 30%;
+    margin-left: 35%;
+}
+.page3-right h1 span{
+    font-family: k;
+    font-size: 10vh;
+    color: #eaff00d5;
+}
+.page4{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.page4-right h1{
+    color: rgba(255, 255, 255, 0.849);
+
+}
+.page4-left p{
+    color: rgba(255, 255, 255, 0.849);
+}
+.page4-right img{
+    margin-left: 75%;
+}
+.page5{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.842);
+    position: relative;
+}
+.scroller{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 10;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}
+.scroller-in{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding: 250px 0;
+
+}
+
+.scroller h2{
+    display: inline-block;
+    font-size: 350px;
+    color: #fff;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    transition: all linear .5s;
+    margin-top: 6%;
+}
+@keyframes scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+
+}
+.page5-cont{
+    width: 53%;
+    height: 50%;
+    /* background-color: #28668f; */
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.same5{
+    width: 100%;
+    height: 25%;
+    /* background-color: #E8FF00; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    border-top: 1px solid rgba(255, 255, 255, 0.411);
+    transition: all ease 1s;
+}
+.same5 h1{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.89);
+}
+.same5 h2{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.589);
+}
+.same5:hover h1{
+    color: #E8FF00;
+    transform: rotateY(20deg);
+}
+.same5:hover h2{
+    color: #E8FF00;
+    transform: rotateY(20deg);
+}
+.page5 p{
+    position: absolute;
+    color: #fff;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    top: 45%;
+    left: 28%;
+}
+.page6{
+    width: 100%;
+    height: 95vh;
+    background-color: #fff;
+    transition: all ease 1s;
+}
+.page6:hover{
+    background-color:#A9B6F7;
+}
+.page6 h1{
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 60%; */
+    padding: 12% 12%;
+}
+.page7{
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+    display: flex;
+
+}
+.page7-left{
+    width: 45%;
+    height: 100%;
+    /* background-color: #28668f; */
+}
+.page7-right{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/24ec20_8d3fc8e969a24029a9168025542a3ae8~mv2.jpg/v1/fill/w_675,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/NEW%20CARAMEL_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.page7-inn h1{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.89);
+}
+.page7-left p{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 75%;
+    line-height: 4vh;
+    color: #00000093;
+    padding: 4% 0;
+}
+.page7-inn{
+    width: 80%;
+    height: 50%;
+    /* background-color: #A9B6F7; */
+    margin-top: 20%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page7-inn button{
+    padding: 50px 150px;
+    border-radius: 90px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    transition: all ease 1s;
+}
+.page7-inn button:hover{
+    background-color: #E8FF00;
+}
+button b{
+    color: rgba(0, 0, 0, 0.884);
+}
+.page8{
+    width: 100%;
+    height: 150vh;
+    /* background-color: #E8FF00; */
+    display: flex;
+    justify-content: space-between;
+}
+.out{
+    width: 33.33%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.page8-three{
+    background-image: url(https://static.wixstatic.com/media/24ec20_45d744d39e274669956808e6e144a88a~mv2.jpg/v1/fill/w_450,h_1124,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Insta_chcolcate_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.one8{
+    width: 100%;
+    height: 50%;
+}
+.one8 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.two8{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://static.wixstatic.com/media/24ec20_dcfb217ed6404e36adbaf20a5ec0631b~mv2.jpg/v1/fill/w_450,h_562,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/final.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.pagein1{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://static.wixstatic.com/media/24ec20_a6c46837fb2e40b599cd40e7b19daed3~mv2.jpg/v1/fill/w_450,h_562,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cheese-copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pagein2{
+    width: 100%;
+    height: 50%;
+}
+.pagein2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page9{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #28668f; */
+    display: flex;
+    justify-content: space-between;
+}
+.page9-left{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://static.wixstatic.com/media/24ec20_db9cc06b0ecd4ee2a76c2eb62209c598~mv2.png/v1/fill/w_675,h_661,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/landscape_grey%20(00000).png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.page9-right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/24ec20_ea273adaf56d4d6d80c2cb5594571a12~mv2.jpg/v1/fill/w_675,h_661,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.left-in{
+    width: 40%;
+    height: 15%;
+    /* background-color: #28668f; */
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transition: all ease 1s;
+    opacity: 0;
+}
+.left-in p,h4{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffd8;
+}
+.page9-left:hover .left-in{
+    opacity: 1;
+    scale: 1.2;
+}
+.left-in p:hover{
+    color: #E8FF00;
+}
+.left-in h4:hover{
+    color: #E8FF00;
+}
+.page9-right:hover .right-in{
+    opacity: 1;
+}
+.right-in p,h4{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffd8;
+}
+.right-in{
+    width: 40%;
+    height: 15%;
+    /* background-color: #28668f; */
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transition: all ease 1s;
+    opacity: 0;
+}
+.right-in p:hover{
+    color: #E8FF00;
+}
+.right-in h4:hover{
+    color: #E8FF00;
+}
+.page10{
+    width: 100%;
+    height: 100vh;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+}
+.page10-left{
+    width: 40%;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/24ec20_701bf448ecaf4a35aa0e9e4cdc6a2a90~mv2.jpg/v1/fill/w_555,h_730,fp_0.50_0.81,q_85,usm_0.66_1.00_0.01,enc_auto/Pin1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.page10-right{
+    width: 40%;
+    height: 100%;
+    /* background-color: #28668f; */
+}
+.page10-right h1{
+    font-size: 11vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 20%;
+    margin-left: 7%;
+    color: white;
+}
+.page10-right p{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 75%;
+    color: rgba(255, 255, 255, 0.808);
+}
+.page10-right button{
+    padding: 60px 120px;
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 7%;
+    transition: all ease 1s;
+}
+.page10-right b{
+    color:  black;
+    font-weight: 100;
+}
+.page10-right button:hover{
+    background-color: #eaff00c9;
+}
